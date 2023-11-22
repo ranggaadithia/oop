@@ -1,0 +1,27 @@
+package id.ac.undiksha.ais;
+
+import id.ac.undiksha.ais.people.Student;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Student student1 = new Student();
+		student1.name = "Rangga";
+		student1.birthDate = "2004-04-26";
+		student1.gender = true;
+		student1.smtr = 6;
+		student1.address = "Jalan Bagus";
+		student1.studentId = "2215101001";
+		
+		System.out.println(student1.name);
+		System.out.println(student1.birthDate);
+		System.out.println(student1.gender);
+		System.out.println(student1.smtr);
+		System.out.println(student1.address);
+		System.out.println(student1.studentId);
+
+	}
+
+}
