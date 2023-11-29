@@ -35,28 +35,9 @@ public class Main {
 		
 		lecturer1.printAll();
 		
-		
-		
-//		student1.name = "Rangga";
-//		student1.birthDate = "2004-04-26";
-//		student1.gender = true;
-//		student1.smtr = 6;
-//		student1.address = "Jalan Bagus";
-//		student1.studentId = "2215101001";
-//		
-//		System.out.println(student1.name);
-//		System.out.println(student1.birthDate);
-//		if (student1.gender) {
-//			System.out.println("Male");
-//		} else {
-//			System.out.println("Female");
-//		}
-//		System.out.println(student1.smtr);
-//		System.out.println(student1.address);
-//		System.out.println(student1.studentId);
-		
-	
-
+		System.out.println("_____");
+		Student student3 = new Student("sat", "22/11/21", true, "jl.ma", "22141221", 6);
+		student3.printAll();
 	}
 
 }
