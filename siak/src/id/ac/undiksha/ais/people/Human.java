@@ -1,10 +1,11 @@
 package id.ac.undiksha.ais.people;
 
-public class Human {
+public abstract class Human {
 	private String name;
 	private String birthDate;
 	private boolean gender; // 0-female 1-male
 	private String address;
+
 	
 	
 	public Human(String name, String birthDate, boolean gender, String address) {

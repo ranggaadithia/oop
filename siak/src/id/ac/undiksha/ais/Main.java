@@ -1,7 +1,6 @@
 package id.ac.undiksha.ais;
 
-import id.ac.undiksha.ais.people.Student;
-import id.ac.undiksha.ais.people.Lecturer;
+import id.ac.undiksha.ais.people.*;
 
 public class Main {
 
@@ -38,6 +37,17 @@ public class Main {
 		System.out.println("_____");
 		Student student3 = new Student("sat", "22/11/21", true, "jl.ma", "22141221", 6);
 		student3.printAll();
+		
+		student3.prodi.setStudyProgramName(null);
+		student3.prodi.setDepartementName(null);
+		student3.prodi.getFacultyName();
+		
+//		Student student4 = new Human();
+		Human human1 = new Student();
+		human1.setName("more");
+		human1.printAll();
+		
+//		Human human2 = new Human();
 	}
 
 }

@@ -1,5 +1,7 @@
 package id.ac.undiksha.ais.people;
 
+import id.ac.undiksha.ais.organitation.StudyProgram;
+
 public class Student extends Human{
 	
 	private String studentId;
@@ -41,4 +43,7 @@ public class Student extends Human{
 		System.out.println(this.studentId);
 		System.out.println(this.smtr);
 	}
+	
+	public StudyProgram prodi = new StudyProgram();
+
 }
